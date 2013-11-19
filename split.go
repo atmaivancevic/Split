@@ -27,7 +27,8 @@ func split(inputFileName string) {
 		// open outputFile in write-only mode
 		outputFile, outputError := os.Create(s.ID + ".fa")
 		if outputError != nil {
-			fmt.Println("Could not create file " + s.ID + ".fa")
+			panic(outputError)
+			// fmt.Println("Could not create file " + s.ID + ".fa")
 			return
 		}
 		defer outputFile.Close()
