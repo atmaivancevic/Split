@@ -18,7 +18,7 @@ func splitGenome(genomeName, extension, identifier string) {
 		split(inputFileName)
 		fmt.Println("Processed: " + genomeName + "/" + identifier + "_unmasked")
 	} else {
-		fmt.Println("File " genomeName + "/" + identifier + "_unmasked does not exist")
+		fmt.Println("File " + genomeName + "/" + identifier + "_unmasked does not exist")
 	}
 
 }
