@@ -7,6 +7,8 @@ import (
 
 const genomeDir = "/scratch/atmaGenomes/"
 
+// uses the split function on each genome
+
 func splitGenome(genomeName, extension, identifier string) {
 
 	os.Chdir(genomeDir + genomeName)
@@ -15,15 +17,21 @@ func splitGenome(genomeName, extension, identifier string) {
 
 	// check if the genome unmasked file exists - if so, split it
 	if _, err := os.Stat(inputFileName); err == nil {
-		split(inputFileName)
-		fmt.Println("Processed: " + genomeName + "/" + identifier + "_unmasked")
+		status := split(inputFileName)
+		// print a status message
+		switch status {
+		case 0:
+			fmt.Println("Processed: " + genomeName + "/" + identifier + "_unmasked")
+		case 1:
+			fmt.Println("Processed: " + genomeName + "/" + identifier + "_unmasked; some files were skipped")
+		case 2:
+			fmt.Println("Processed: " + genomeName + "/" + identifier + "_unmasked; no new files created")
+		default:
+			fmt.Println("Something went wrong with " + genomeName + "/" + identifier + "_unmasked")
+		}
 	} else {
 		fmt.Println("File " + genomeName + "/" + identifier + "_unmasked does not exist")
 	}
-
-	// maybe do a check if the genome has already been split
-	//(i.e. are there any gi*.fa files in the directory already? If so, don't split)
-
 }
 
 func main() {
