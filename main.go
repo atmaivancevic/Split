@@ -11,10 +11,10 @@ func splitGenome(genomeName, extension, identifier string) {
 
 	os.Chdir(genomeDir + genomeName)
 
-	inputFileName := identifier + "." + extension
+	inputFileName := identifier + "_unmasked." + extension
 
 	split(inputFileName)
-	fmt.Println("Processed: " + genomeName + "/" + identifier)
+	fmt.Println("Processed: " + genomeName + "/" + identifier + "_unmasked")
 
 }
 
