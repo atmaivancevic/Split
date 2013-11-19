@@ -5,7 +5,7 @@ import (
 	"os"
 )
 
-const genomeDir = "scratch/atmaGenomes/"
+const genomeDir = "/scratch/atmaGenomes/"
 
 func splitGenome(genomeName, extension, identifier string) {
 
