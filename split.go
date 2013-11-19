@@ -7,7 +7,6 @@ import (
 	"code.google.com/p/biogo/seq/linear"
 
 	"bufio"
-	"fmt"
 	"os"
 )
 
@@ -15,7 +14,7 @@ func split(inputFileName string) {
 	// open inputFile in read-only mode
 	inputFile, inputError := os.Open(inputFileName)
 	if inputError != nil {
-		fmt.Println("An error occurred opening the input file.")
+		panic(inputError)
 		return
 	}
 	defer inputFile.Close()
@@ -28,10 +27,9 @@ func split(inputFileName string) {
 		outputFile, outputError := os.Create(s.ID + ".fa")
 		if outputError != nil {
 			panic(outputError)
-			// fmt.Println("Could not create file " + s.ID + ".fa")
 			return
 		}
-		defer outputFile.Close()
+		// defer outputFile.Close()
 
 		outputWriter := bufio.NewWriter(outputFile)
 
@@ -42,6 +40,9 @@ func split(inputFileName string) {
 
 		// write the buffer completely to the file
 		outputWriter.Flush()
+
+		// close outputFile
+		outputFile.Close()
 	}
 	if sc.Error() != nil {
 		panic(sc.Error())
