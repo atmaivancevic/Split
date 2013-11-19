@@ -1,8 +1,8 @@
 package main
 
 import (
-	"os"
 	"fmt"
+	"os"
 )
 
 const genomeDir = "scratch/atmaGenomes/"
@@ -14,7 +14,7 @@ func splitGenome(genomeName, extension, identifier string) {
 	inputFileName := identifier + "." + extension
 
 	split(inputFileName)
-	fmt.Println("Processed: " + genomeName + "/" identifier)
+	fmt.Println("Processed: " + genomeName + "/" + identifier)
 
 }
 
