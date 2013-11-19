@@ -7,7 +7,7 @@ import (
 
 const genomeDir = "/scratch/atmaGenomes/"
 
-func splitGenome(genomeName, prefix, extension, identifier string) {
+func splitGenome(genomeName, extension, identifier string) {
 
 	os.Chdir(genomeDir + genomeName)
 
