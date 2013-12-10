@@ -29,13 +29,14 @@ func split(inputFileName string) int {
 	defer inputFile.Close()
 
 	sc := seqio.NewScanner(fasta.NewReader(inputFile, linear.NewSeq("", nil, alphabet.DNA)))
+	int seqNo := 1
 	for sc.Next() {
 		s := sc.Seq().(*linear.Seq)
 
 		// check if the output file already exists
-		if _, err := os.Stat(s.ID + ".fa"); os.IsNotExist(err) {
+		if _, err := os.Stat("seq" + seqNo + ".fa"); os.IsNotExist(err) {
 			// open output file in write-only mode
-			outputFile, outputError := os.Create(s.ID + ".fa")
+			outputFile, outputError := os.Create("seq" + seqNo + ".fa")
 			if outputError != nil {
 				panic(outputError)
 			}
@@ -48,6 +49,8 @@ func split(inputFileName string) int {
 			outputWriter.Flush()
 			// close the output file
 			outputFile.Close()
+
+			seqNo++
 
 			fileCreated = true
 		} else {
