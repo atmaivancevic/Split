@@ -8,6 +8,7 @@ import (
 
 	"bufio"
 	"os"
+	"strconv"
 )
 
 // this function splits a genome into smaller files,
@@ -34,9 +35,9 @@ func split(inputFileName string) int {
 		s := sc.Seq().(*linear.Seq)
 
 		// check if the output file already exists
-		if _, err := os.Stat("seq" + string(seqNo) + ".fa"); os.IsNotExist(err) {
+		if _, err := os.Stat("seq" + strconv.Itoa(seqNo) + ".fa"); os.IsNotExist(err) {
 			// open output file in write-only mode
-			outputFile, outputError := os.Create("seq" + string(seqNo) + ".fa")
+			outputFile, outputError := os.Create("seq" + strconv.Itoa(seqNo) + ".fa")
 			if outputError != nil {
 				panic(outputError)
 			}
