@@ -30,7 +30,7 @@ func split(inputFileName string) int {
 	defer inputFile.Close()
 
 	sc := seqio.NewScanner(fasta.NewReader(inputFile, linear.NewSeq("", nil, alphabet.DNA)))
-	seqNo := 1
+	seqNo := 1;
 	for sc.Next() {
 		s := sc.Seq().(*linear.Seq)
 
