@@ -178,6 +178,8 @@ func main() {
 		{"NeolamprologusBrichardi", "NeoBri1.0"},
 		{"FlameBackCichlid", "PunNye1.0"},
 		{"ArticLamprey", "LetJap1.0"},
+		{"GreaterHorseshoeBat", "ASM46549v1"},
+		{"BrandtsBat", "ASM41265v1"},
 	} {
 		splitGenome(gen.dir, "fa", gen.file)
 	}
