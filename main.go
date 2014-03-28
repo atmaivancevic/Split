@@ -40,7 +40,7 @@ func main() {
 		dir  string
 		file string
 	}{
-		// {"Alpaca", "vicPac2"},
+		{"Alpaca", "vicPac2"},
 		// {"AmericanAlligator", "allMis1"},
 		// {"Armadillo", "dasNov3"},
 		// {"AtlanticCod", "gadMor1"},
@@ -73,7 +73,7 @@ func main() {
 		// {"KangarooRat", "dipOrd1"},
 		// {"Lamprey", "petMar2"},
 		// {"Lizard", "anoCar2"},
-		// {"Manatee", "triMan1"},
+		{"Manatee", "triMan1"},
 		// {"Marmoset", "calJac3"},
 		// {"Medaka", "oryLat2"},
 		// {"MediumGroundfinch", "geoFor1"},
@@ -105,7 +105,7 @@ func main() {
 		// {"TreeShrew", "tupBel1"},
 		// {"Turkey", "melGal1"},
 		// {"Wallaby", "macEug2"},
-		// {"WhiteRhino", "cerSim1"},
+		{"WhiteRhino", "cerSim1"},
 		// {"ZebraFinch", "taeGut1"},
 		// {"Zebrafish", "danRer7"},
 		// {"CapeElephantShrew", "EleEdw1.0"},
