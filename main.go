@@ -289,10 +289,11 @@ func main() {
 		// {"AmazonMolly", "Poecilia_formosa_5.1.2"},
 		// {"FlagRockfish", "SRub1.0"},
 		// {"TigerRockfish", "Snig1.0"},
-		{"ElephantShark", "calMil1"},
-		{"Guppy", "Guppy_female_1.0_MT"},
-		{"BlindMolerat", "S.galili_v1.0"},
-		{"BlackCormorant", "ASM70892v1"},
+		// {"ElephantShark", "calMil1"},
+		// {"Guppy", "Guppy_female_1.0_MT"},
+		// {"BlindMolerat", "S.galili_v1.0"},
+		// {"BlackCormorant", "ASM70892v1"},
+		{"Elephant", "LAv4"},
 	} {
 		splitGenome(gen.dir, "fa", gen.file)
 	}
