@@ -293,7 +293,8 @@ func main() {
 		// {"Guppy", "Guppy_female_1.0_MT"},
 		// {"BlindMolerat", "S.galili_v1.0"},
 		// {"BlackCormorant", "ASM70892v1"},
-		{"Elephant", "LAv4"},
+		// {"Elephant", "LAv4"},
+		{"PaintedTurtle", "Chrysemys_picta_bellii_3.0.3"},
 	} {
 		splitGenome(gen.dir, "fa", gen.file)
 	}
