@@ -69,7 +69,7 @@ func main() {
 		// {"Gibbon", "nomLeu3"},
 		// {"Gorilla", "gorGor3"},
 		// {"GuineaPig", "cavPor3"},
-		{"Hedgehog", "eriEur2.0"},
+		{"Hedgehog", "EriEur2.0"},
 		// {"KangarooRat", "dipOrd1"},
 		// {"Lamprey", "petMar2"},
 		// {"Lizard", "anoCar2"},
