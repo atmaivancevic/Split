@@ -99,7 +99,7 @@ func main() {
 		{"GreenSeaTurtle", "CheMyd_1.0"},
 		{"GroundTit", "PseHum1.0"},
 		{"GuineaPig", "cavPor3"},
-		{"Hedgehog", "eriEur1"},
+		{"Hedgehog", "EriEur2.0"},
 		{"Horse", "equCab2"},
 		{"Human", "GRCh38"},
 		{"JapaneseQuail", "Coja_1.0"},
