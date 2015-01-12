@@ -111,7 +111,7 @@ func main() {
 		{"Mallard", "BGI_duck_1.0"},
 		{"Manatee", "triMan1"},
 		{"Marmoset", "calJac3"},
-		{"Medaka", "oryLat2"},
+		{"Medaka", "ASM31367v1"},
 		{"MediumGroundfinch", "geoFor1"},
 		{"Megabat", "pteVam1"},
 		{"MexicanTetra", "Astyanax_mexicanus_1.0.2"},
