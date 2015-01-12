@@ -196,7 +196,7 @@ func main() {
 		{"AstatotilapiaBurtoni", "AstBur1.0"},
 		{"NeolamprologusBrichardi", "NeoBri1.0"},
 		{"FlameBackCichlid", "PunNye1.0"},
-		{"ArticLamprey", "LetJap1.0"},
+		{"ArcticLamprey", "LetJap1.0"},
 		{"GreaterHorseshoeBat", "ASM46549v1"},
 		{"BrandtsBat", "ASM41265v1"},
 		{"C_semi", "Cse_v1.0"},
