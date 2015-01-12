@@ -123,7 +123,7 @@ func main() {
 		{"NakedMolerat", "hetGla2"},
 		{"NeolamprologusBrichardi", "NeoBri1.0"},
 		{"NileTilapia", "oreNil2"},
-		{"PaintedTurtle", "chrPic1"},
+		{"PaintedTurtle", "Chrysemys_picta_bellii_3.0.3_unmasked"},
 		{"Panda", "ailMel1"},
 		{"ParnellsMustachedBat", "ASM46540v1"},
 		{"PeregrineFalcon", "F_peregrinus_v1.0"},
