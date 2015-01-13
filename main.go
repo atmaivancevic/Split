@@ -152,7 +152,7 @@ func main() {
 		{"Stickleback", "gasAcu1"},
 		{"StrawcolouredFruitBat", "ASM46528v1"},
 		{"SumatranOrangutan", "P_pygmaeus_2.0.2"},
-		{"Tarsier", "tarSyr1"},
+		{"Tarsier", "Tarsius_syrichta_2.0.1"},
 		{"TasDevil", "sarHar1"},
 		{"Tenrec", "echTel2"},
 		{"TibetanAntelope", "PHO1.0"},
