@@ -5,7 +5,7 @@ import (
 	"os"
 )
 
-const genomeDir = "/data01/Genomes/Protostomia/"
+const genomeDir = "/data01/Genomes/Other/"
 
 // uses the split function on each genome
 
