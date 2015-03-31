@@ -489,6 +489,8 @@ func main() {
 		{"MongolianHorse", "Ajinai1.0"},
 		{"WildSheep", "Oori1"},
 		{"MiniPig", "SscrofaMinipig"},
+		{"hg19", "hg19"},
+		{"Shark", "shark_ass_20150106_scafSeq"},
 	} {
 		splitGenome(gen.dir, "fa", gen.file)
 	}
