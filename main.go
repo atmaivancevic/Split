@@ -57,7 +57,7 @@ func main() {
 		// {"BigBrownBat", "EptFus1.0"},
 		// {"BlackCormorant", "ASM70892v1"},
 		// {"BlackFlyingFox", "ASM32557v1"},
-		{"BlindMolerat", "S.galili_v1.0"},
+		// {"BlindMolerat", "S.galili_v1.0"},
 		// {"Bonobo", "panpan1"},
 		// {"BrandtsBat", "ASM41265v1"},
 		// {"Budgerigar", "melUnd1"},
@@ -96,7 +96,7 @@ func main() {
 		// {"GreaterFalseVampireBat", "ASM46534v1"},
 		// {"GreaterHorseshoeBat", "ASM46549v1"},
 		// {"GreenMonkey", "Chlorocebus_sabeus_1.0"},
-		{"GreenSeaTurtle", "CheMyd_1.0"},
+		// {"GreenSeaTurtle", "CheMyd_1.0"},
 		// {"GroundTit", "PseHum1.0"},
 		// {"GuineaPig", "cavPor3"},
 		// {"Hedgehog", "EriEur2.0"},
@@ -490,7 +490,7 @@ func main() {
 		// {"WildSheep", "Oori1"},
 		// {"MiniPig", "SscrofaMinipig"},
 		// {"hg19", "hg19"},
-		// {"Shark", "shark_ass_20150106_scafSeq"},
+		{"Shark", "shark_ass_20150106_scafSeq"},
 		// {"PogonaVitticeps", "Pogona_vitticeps.male"},
 	} {
 		splitGenome(gen.dir, "fa", gen.file)
