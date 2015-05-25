@@ -5,7 +5,7 @@ import (
 	"os"
 )
 
-const genomeDir = "/data01/Genomes/Vertebrates/"
+const genomeDir = "/data01/Genomes/Other/"
 
 // uses the split function on each genome
 
@@ -67,7 +67,7 @@ func main() {
 		// {"CapeGoldenMole", "ChrAsi1.0"},
 		// {"Cat", "felCat5"},
 		// {"Chicken", "galGal4"},
-		{"Chimp", "panTro4"},
+		// {"Chimp", "panTro4"},
 		// {"Chinchilla", "ChiLan1.0"},
 		// {"ChineseAlligator", "ASM45574v1"},
 		// {"ChineseHamster", "CriGri_1.0"},
@@ -443,28 +443,28 @@ func main() {
 		// {"VolvoxCarteri_f_nagariensis", "v1.0"},
 		// {"Maize", "B73_RefGen_v3"},
 		// {"ManchurianWildRice", "Zizania_latifolia_v01"},
-		// {"VaseTunicate", "KH"}, //Other
-		// {"StarAscidian", "356a_chromosome_assembly"},
-		// {"BatStar", "Pmin_1.0"},
-		// {"GreenSeaUrchin", "Lvar_0.4"},
-		// {"PurpleSeaUrchin", "Spur_3.1"},
-		// {"AcornWorm", "Skow_1.1"},
-		// {"Schisto", "ASM23792v2"},
-		// {"ChineseLiverFluke", "C_sinensis_2.0"},
-		// {"RodentTapeworm", "HMIC001"},
-		// {"HyperTapeworm", "EGRAN001"},
-		// {"FoxTapeworm", "EMULTI001"},
-		// {"CaliforniaSeaHare", "AplCal3.0"},
-		// {"PolychaeteWorm", "Capca1"},
-		// {"Leech", "Helobdella_robusta_v1.0"},
-		// {"OwlLimpet", "Helro1"},
-		// {"PacificOyster", "oyster_v9"},
-		// {"Rotifer", "ASM_PRJEB1171_v1"},
-		// {"FreshwaterSnail", "ASM45736v1"},
-		// {"FreshwaterPolyp", "Hydra_RP_1.0"},
-		// {"Lancelet", "Version_2"},
-		// {"WartyCombJelly", "MneLei_Aug2011"},
-		// {"SeaSponge", "v1.0"},
+		{"VaseTunicate", "KH"}, //Other
+		{"StarAscidian", "356a_chromosome_assembly"},
+		{"BatStar", "Pmin_1.0"},
+		{"GreenSeaUrchin", "Lvar_0.4"},
+		{"PurpleSeaUrchin", "Spur_3.1"},
+		{"AcornWorm", "Skow_1.1"},
+		{"Schisto", "ASM23792v2"},
+		{"ChineseLiverFluke", "C_sinensis_2.0"},
+		{"RodentTapeworm", "HMIC001"},
+		{"HyperTapeworm", "EGRAN001"},
+		{"FoxTapeworm", "EMULTI001"},
+		{"CaliforniaSeaHare", "AplCal3.0"},
+		{"PolychaeteWorm", "Capca1"},
+		{"Leech", "Helobdella_robusta_v1.0"},
+		{"OwlLimpet", "Helro1"},
+		{"PacificOyster", "oyster_v9"},
+		{"Rotifer", "ASM_PRJEB1171_v1"},
+		{"FreshwaterSnail", "ASM45736v1"},
+		{"FreshwaterPolyp", "Hydra_RP_1.0"},
+		{"Lancelet", "Version_2"},
+		{"WartyCombJelly", "MneLei_Aug2011"},
+		{"SeaSponge", "v1.0"},
 		// {"SaltwaterCroc", "Cpor_2.0"}, //New
 		// {"GharialCroc", "ggan_v0.2"},
 		// {"Viper", "Vber.be_1.0"},
