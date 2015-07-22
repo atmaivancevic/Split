@@ -5,7 +5,7 @@ import (
 	"os"
 )
 
-const genomeDir = "/data01/Genomes/Vertebrates/"
+const genomeDir = "/data01/Genomes/Protostomia/"
 
 // uses the split function on each genome
 
@@ -121,7 +121,7 @@ func main() {
 		// {"Mouse", "GRCm38.p2"},
 		// {"MouseearedBat", "ASM32734v1"},
 		// {"MouseLemur", "micMur1"},
-		{"Mummichog", "Fundulus_heteroclitus_3.0.2"},
+		// {"Mummichog", "Fundulus_heteroclitus_3.0.2"},
 		// {"NakedMolerat", "hetGla2"},
 		// {"NeolamprologusBrichardi", "NeoBri1.0"},
 		// {"NileTilapia", "oreNil2"},
